@@ -11,7 +11,7 @@ st.title("📊 Netflix Userbase Analysis Dashboard")
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("/Users/supreetkesti/Downloads/my_downloads/Exploratory-Analysis-of-Netflix-Userbase-main/dataset/raw/netflix_userbase.csv")
+    df = pd.read_csv("/Users/supreetkesti/Downloads/my_downloads/Exploratory-Analysis-of-Netflix-Userbase-main/netflix_userbase.csv")
 
     # Rename columns
     df.rename(columns={
